@@ -13,7 +13,7 @@ class SNAKE:
 		
 		self.tail_up = pygame.image.load('D:/study/KHMT/finalPro/tail_up.png').convert_alpha()
 		self.tail_down = pygame.image.load('D:/study/KHMT/finalPro/tail_down.png').convert_alpha()
-		self.tail_right = pygame.image.load('D:/study/KHMT/finalPro/tail_right.png').convert_alpha()
+		self.tail_right = pygame.image.load('D:/study/KHMT/finalPro/tail_right.png').convert_alpha() #đường dẫn phụ thuộc vào nơi mình lưu vào máy hoặc web
 		self.tail_left = pygame.image.load('D:/study/KHMT/finalPro/tail_left.png').convert_alpha()
 
 		self.body_vertical = pygame.image.load('D:/study/KHMT/finalPro/body_vertical.png').convert_alpha()
