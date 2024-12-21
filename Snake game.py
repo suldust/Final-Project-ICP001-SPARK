@@ -28,7 +28,7 @@ class SNAKE:
 		self.update_head_graphics()
 		self.update_tail_graphics()
 
-		for index,block in enumerate(self.body):
+		for index,block in enumerate(self.body): 
 			x_pos = int(block.x * cell_size)
 			y_pos = int(block.y * cell_size)
 			block_rect = pygame.Rect(x_pos,y_pos,cell_size,cell_size)
@@ -156,7 +156,6 @@ pygame.init()
 cell_size = 40
 cell_number = 20
 screen = pygame.display.set_mode((cell_number * cell_size,cell_number * cell_size))
-imp = pygame.image.load('D:/study/KHMT/finalPro/space.png').convert()
 clock = pygame.time.Clock()
 object = pygame.image.load('D:/study/KHMT/finalPro/shard.png').convert_alpha()
 game_font = pygame.font.Font('D:/study/KHMT/finalPro/PoetsenOne-Regular.ttf', 25)
